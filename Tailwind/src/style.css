@@ -1,0 +1,17 @@
+.modal{
+    margin-top: 50px;
+    margin-left: 82%;
+    align-items: flex-start;
+    background-color: transparent;
+    
+}
+.modal-box{
+    
+}
+.modal-action{
+    justify-content: center;
+    margin-top: 5px;
+}
+.close{
+    
+}
