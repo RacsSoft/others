@@ -1,0 +1,402 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.fixed{
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+/* .center-1{
+    margin-right: 20%;
+} */
+.company-info{
+    height: 360px;
+}
+.mt{
+    margin-top: -85px;
+}
+.text{
+    color: #0977b5;
+}
+#my-modal{
+    margin-top: 48px;
+    margin-left: 73% !important;
+    align-items: flex-start;
+    background-color: transparent;
+}
+#my-modal input{
+    border-radius: 0%;
+}
+#my-modalR{
+    margin-top: 25%;
+    background-color: transparent;
+}
+#my-modalR input{
+    border-radius: 0%;
+}
+#my-modalG{
+    background-color: transparent;
+}
+#my-modalG input{
+    border-radius: 0%;
+}
+#my-modalC{
+    background-color: transparent;
+}
+#my-modalC input{
+    border-radius: 0%;
+}
+#my-modalA{
+    background-color: transparent;
+}
+#my-modalA input{
+    border-radius: 0%;
+}
+.font-1{
+    font-weight: bold;
+}
+.font-2{
+    color: rgb(0, 0, 0);
+}
+.modal-action{
+    justify-content: center;
+    margin-top: 5px;
+}
+.close{
+    
+}
+.modal-r{
+    margin-left: 36%;
+    align-items: center !important;
+}
+.modal-box{
+    border-radius: 0%;
+    background-image: linear-gradient(to right, rgba(109,180,186,0), rgba(109,180,186,1));
+}
+#modalBox{
+    background-image: linear-gradient(to right, rgb(224, 224, 224), #0977b5) !important;
+}
+*,::before, ::after {
+    --tw-border-opacity: 1;
+    border-color: #1f2937;
+}
+.product{
+    margin-top: 40%;
+    border-radius: 0%;
+    height: 230px;
+    width: 220px;
+}
+.product-ml{
+    align-items: center;
+    margin-left: 8%;
+}
+.product-ml-1{
+    align-items: center;
+    margin-left: 8%;
+}
+#shadow {
+    
+    
+}
+.center{
+    display: flex;
+    margin-top: 32%;
+    margin-left: 39%;
+}
+.nav{
+    margin-left: 5%;
+}
+.login{
+    margin-left: 25%;
+}
+#placeholder::placeholder{
+    color: white;
+}
+
+ul li:hover{
+    background-color: #9ca3af !important;
+    color: black;
+    font-weight: bold;
+}
+
+#emailSignUp::placeholder{
+    color: gray;
+    font-weight: bold;
+}
+#emailSignUp{
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 0%;
+}
+#emailSignUpBtn{
+    border-radius: 0%;
+    color: gray;
+    border: 1px solid rgba(255,255,255,.2);
+}
+.color{
+    color: #818181 !important;
+}
+.color:hover{
+    color: white !important;
+}
+.borderColor{
+    border-color: #ae946d;
+}
+.borderColor:hover{
+    border-color: white;
+}
+.hr-1{
+    border:1px solid rgba(255,255,255,.2);
+}
+.hr{
+    border:1px solid #ae946d;
+}
+.hr:hover{
+    border-color: white;
+}
+.imgBorder{
+    border:2px solid rgba(255,255,255,.2);
+    border-radius: 15%;
+}
+.font{
+    font-family: 'Righteous', cursive;
+    color: #1098e7;
+}
+.fontz{
+    font-family: 'Righteous', cursive;
+}
+.hotline{
+    color: #ae946d;
+}
+.hotline:hover{
+    color: white;
+}
+.divide-x-2{
+    margin-top: 10px !important;
+}
+.details{
+    color: #BBA14F !important;
+}
+.service{
+    background-color: rgba(6,182,212,.7);
+}
+.service1{
+    background-color: rgba(28,102,145,.7);
+}
+.service2{
+    background-color: rgba(46, 234, 162, 0.7);
+}
+.service3{
+    background-color: rgba(25, 254, 243, 0.7);
+}
+.service4{
+    background-color: rgba(80,141,2,.7);
+}
+.service5{
+    background-color: rgba(9, 119, 181,.7);
+}
+.service6{
+    background-color: rgba(141, 2, 60, 0.5);
+}
+
+/* Slider */ 
+.customer-logos {
+    width: 90vw;
+}
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+/* slider end */
+
+.animate-bounce{
+    animation: bounce 2s infinite;
+}
+.animate-bounce-1{
+    animation: bounce 4s infinite;
+}
+.animate-bounce-2{
+    animation: bounce 6s infinite;
+}
+.animate-bounce-3{
+    animation: bounce 10s infinite;
+}
+#btn{
+    background-color: #0977b5 !important;
+    border: 1px solid #0977b5;
+}
+#btn:hover{
+    background-color: #1098e7 !important;
+    border: 1px solid #1098e7 !important;
+}
+/* Responsive css */
+@media only screen and (min-width: 1024px){ /*for lg*/
+    .ml{
+        margin-left: 29% !important;
+    }
+}
+@media only screen and (min-width: 1280px){ /*for xl*/
+    .service{
+        height: 385px;
+    }
+    .service1{
+        height: 385px;
+    }
+    .service2{
+        height: 385px;
+    }
+    .service3{
+        height: 385px;
+    }
+    .service4{
+        height: 385px;
+    }
+    .service5{
+        height: 385px;
+    }
+    .service6{
+        height: 385px;
+    }
+    .ml{
+        margin-left: 32% !important;
+    }
+    #my-modal{
+        margin-top: 48px;
+        margin-left: 73% !important;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 1536px){ /*for 2xl*/
+    #my-modal{
+        margin-top: 48px;
+        margin-left: 81% !important;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+}
